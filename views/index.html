@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <title>Velanox</title>
+  <meta name="description"
+    content="The new highly innovative proxy of Titanium Network using technologies such as service workers and sophisticated rewriting techniques with CAPTCHA support. Ultraviolet focuses on speed with YouTube, now.gg, Spotify, CoolMathGames and various .io sites!" />
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#434c5e" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/Logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="assets/css/styles-1644738239.css" />
+  <script src="/baremux/index.js" defer></script>
+  <script src="/uv/uv.bundle.js" defer></script>
+  <script src="/uv/uv.config.js" defer></script>
+  <script src="/assets/js/register-sw.js" defer></script>
+  <script src="
+    https://cdn.jsdelivr.net/npm/tsparticles@3.5/tsparticles.bundle.min.js
+    "></script>
+
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f3f3f3;
+      /* Light Fluent-style background */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    /* Container for the Fluent-style textbox */
+    .fluent-textbox-container {
+      position: relative;
+      width: 300px;
+    }
+
+    /* Textbox styling */
+    .fluent-textbox-container input[type="text"] {
+      width: 100%;
+      height: 45px;
+      margin-bottom: 10px;
+      padding: 10px 14px;
+      border: 1px solid #d3d3d3;
+      border-radius: 5px;
+      font-size: 16px;
+      transition: all 0.3s ease;
+      background: #ffffff;
+      /* Subtle white */
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      /* Fluent-style shadow */
+      outline: none;
+    }
+
+    /* Focus effect */
+    .fluent-textbox-container input[type="text"]:focus {
+      border-color: #0067c0;
+      /* Fluent-style blue */
+      box-shadow: 0 0 6px rgba(0, 103, 192, 0.5);
+    }
+
+    /* Label styling (above textbox) */
+    .fluent-textbox-container label {
+      position: absolute;
+      left: 14px;
+      top: 10px;
+      font-size: 14px;
+      color: #808080;
+      background: white;
+      padding: 0 4px;
+      pointer-events: none;
+      transition: all 0.2s ease;
+    }
+
+    /* Float the label when text is entered or focused */
+    .fluent-textbox-container input[type="text"]:not(:placeholder-shown)+label,
+    .fluent-textbox-container input[type="text"]:focus+label {
+      top: -10px;
+      left: 12px;
+      font-size: 12px;
+      color: #0067c0;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body style="background-color: #0f172a;">
+  <img style="position: absolute; height: 620px; right: 0;" src="assets/img/illustration.png">
+  <div id="mainbody" class="fullwidth">
+    <div class="ad" id="ad-left"></div>
+    <div class="ad" id="ad-right"></div>
+    <!-- IMPORTANT-HUCOOKINGINSERT-DONOTDELETE -->
+    <div class="box box-medium text-center textm">
+      <img style="height: 80px; display: block; margin: 0 auto;" src="assets/img/Logo.png">
+      <h1 class="bigtitle">Velanox (Beta)</h1>
+      <p style="padding: 0 200px;">
+        Velanox provides seamless access to websites blocked by your network. To keep it working smoothly, please keep
+        Velanox private and refrain from sharing its links, as this could lead to it being blocked.
+      </p>
+      <div id="pr-uv" class="fluent-textbox-container" style="width: 750px; margin: auto;">
+        <input id="fluent-textbox"
+          style="background-color: white; color: rgb(32, 32, 32); font-weight: 500; font-family: sans-serif; border-radius: 10px;"
+          type="text" spellcheck="false" autocomplete="off" placeholder="Search or enter in a target site" />
+      </div>
+      <div class="font3">
+        <p>
+          Made by &nbsp;<a href="https://www.instagram.com/e.h54nn/"><strong>Ehsan Hussaini</strong></a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <script src="assets/js/common.js"></script>
+  <script src="assets/js/csel.js"></script>
+  <script src="{{src}}"></script>
+</body>
+
+</html>
